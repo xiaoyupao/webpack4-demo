@@ -1,6 +1,7 @@
 * 参考来源：https://doc.webpack-china.org/guides/getting-started/
 
 ### 启动
+* dist 文件夹不需要，执行 npm run build 会自动生成编译后的文件
 * npm run build
 
 ### 以下是安装命令，在package.json中都声明过，这里了解一下就可以
