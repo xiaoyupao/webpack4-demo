@@ -1,6 +1,7 @@
 * 参考来源：https://doc.webpack-china.org/guides/getting-started/
 
 ### 启动
+* dist 文件夹不需要，执行下面两个命令中的任一个，均会自动生成编译后文件
 * npm run watch 开发中使用 webpack 的观察模式
 * npm run start 开发中使用 webpack-dev-server
 
