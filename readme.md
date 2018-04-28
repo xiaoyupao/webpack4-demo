@@ -11,3 +11,7 @@
 * npm install --save-dev file-loader
 * npm install --save-dev html-webpack-plugin
 * npm install clean-webpack-plugin --save-dev
+* npm install --save-dev webpack-dev-server
+
+* npm run watch 开发中使用 webpack 的观察模式
+* npm run start 开发中使用 webpack-dev-server
