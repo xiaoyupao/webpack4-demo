@@ -3,7 +3,7 @@
 ### 启动
 * dist 文件夹不需要，执行下面两个命令中的任一个，均会自动生成编译后文件
 * npm run watch 开发中使用 webpack 的观察模式
-* npm run start 开发中使用 webpack-dev-server
+* npm run start 开发中使用 webpack-dev-server, 将自动打开 http://localhost:8080/
 
 ### 以下是安装命令，在package.json中都声明过，这里了解一下就可以
 * npm init -y
