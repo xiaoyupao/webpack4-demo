@@ -5,3 +5,7 @@
 * npm install --save lodash
 * npx webpack src/index.js --output dist/bundle.js
 * npm run build
+
+
+* npm install --save-dev style-loader css-loader
+* npm install --save-dev file-loader
