@@ -1,0 +1,29 @@
+{
+  "name": "webpack4-demo",
+  "version": "4.6.0",
+  "description": "* 参考来源：https://doc.webpack-china.org/guides/getting-started/",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyupao/webpack4-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyupao/webpack4-demo/issues"
+  },
+  "homepage": "https://github.com/xiaoyupao/webpack4-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
