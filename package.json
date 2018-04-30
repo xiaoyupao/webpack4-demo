@@ -1,11 +1,16 @@
 {
   "name": "webpack4-demo",
+  "sideEffects": [
+    "./src/some-side-effectful-file.js",
+    "*.css"
+  ],
   "version": "4.6.0",
   "description": "* 参考来源：https://doc.webpack-china.org/guides/getting-started/",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
+    "dev": "webpack --mode development",
     "build": "webpack"
   },
   "repository": {
