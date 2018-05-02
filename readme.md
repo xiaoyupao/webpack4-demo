@@ -2,11 +2,9 @@
 
 ### 启动
 * dist 中只留 index.html，bundle.js 执行 npm run build 后会自动生成
-* npm run dev 或者 npx webpack --mode development  , bundle.js中就会出现未使用过的 math.js中的 square函数
-* npm run build 或者 npx webpack --mode production, 是生产环境，bundle.js不会出现未使用
+* npm run start 跑的dev的配置，启8080端口的url
+* npm run build 跑的prod的配置，在生成dist文件中index.html在浏览器中打开
 过的函数
-* 个人觉得好像本身 npm run build 就可以实现 treeShaking 啊
-* 注意一下 sideEffects 详见官网
 
 ### 以下是安装命令，在package.json中都声明过，这里了解一下就可以
 * npm init -y
@@ -15,3 +13,17 @@
 * npx webpack src/index.js --output dist/bundle.js
 * npm run build
 
+* npm i clean-webpack-plugin --save-dev
+* npm install --save-dev webpack-merge
+* npm install --save-dev html-webpack-plugin
+* npm install --save-dev webpack-dev-server
+
+### 若报错，没啥用
+* 报错 “This is probably not a problem with npm. There is likely additional logging output above”
+* 解决方案见：https://github.com/JeffreyWay/laravel-mix/issues/1016
+<pre>
+    rm -rf node_modules
+    rm package-lock.json
+    npm cache clear --force
+    npm install
+</pre>
