@@ -1,7 +1,10 @@
-import _ from "lodash";
-function component() {
+async function getComponent() {
     var element = document.createElement("div");
-    // Lodash, now imported by this script
+    const _ = await import(/* webpackChunkName: "lodash" */ "lodash");
     element.innerHTML = _.join(["Hello", "webpack"], " ");
+    return element;
 }
-document.body.appendChild(component());
+
+getComponent().then(component => {
+    document.body.appendChild(component);
+});
