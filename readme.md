@@ -13,3 +13,6 @@
 * npm install --save-dev file-loader
 * npm install --save-dev html-webpack-plugin
 * npm install clean-webpack-plugin --save-dev
+
+### 参考网址
+* optimization.splitChunks配置：https://juejin.im/post/5ae925cff265da0ba76f89b7
