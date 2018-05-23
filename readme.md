@@ -13,3 +13,6 @@
 * npm install --save-dev file-loader
 * npm install --save-dev html-webpack-plugin
 * npm install clean-webpack-plugin --save-dev
+
+### 渐进式网络应用程序
+* npm install http-server --save-dev
