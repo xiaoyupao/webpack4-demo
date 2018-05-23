@@ -11,3 +11,6 @@
 * npx webpack src/index.js --output dist/bundle.js
 * npm run build
 
+### 安装loader
+* npm install imports-loader --save
+

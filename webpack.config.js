@@ -12,5 +12,13 @@ module.exports = {
     output: {
         filename: "bundle.js",
         path: path.resolve(__dirname, "dist")
+    },
+    module: {
+        rules: [
+            {
+                test: require.resolve("./src/index.js"),
+                use: "imports-loader?this=>window"
+            }
+        ]
     }
 };
